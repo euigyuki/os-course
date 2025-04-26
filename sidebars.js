@@ -13,7 +13,7 @@ const sidebars = {
         'concepts',
         'assignmenthelp',
         'resources',
-        'officeHours',
+        'officehours',
         'faq',  
         'howtostudy',
       ],
@@ -22,7 +22,7 @@ const sidebars = {
       type: 'category',
       label: 'Tools & Philosophy',
       items: [
-        'JavaDebugger',
+        'javadebugger',
         'coding-philosophy',
       ],
     },
