@@ -3,11 +3,20 @@
 Welcome! This section provides tips, setup guidance, and common pitfalls for programming assignments (PAs) and written problem sets. Please make sure to review this page **before asking questions** or attending office hours — it will save you time and help you debug more effectively.
 
 ---
+| PA | Topic               | Starter Code | Due Date    | Difficulty |
+|----|---------------------|---------------|-------------|------------|
+| PA1 |                    | ✅ Yes        | Sep 20      | 🟢 Easy    |
+| PA2 |                    | ✅ Yes        | Oct 4       | 🟡 Medium  |
+| PA3 |                    | ✅ Yes        | Oct 18      | 🔴 Hard    |
+| PA4 |                    | ✅ Yes        | Nov 1       | 🔴 Hard    |
+
 
 ## 🧑‍💻 Programming Assignments
 
 ### 📦 PA1: 
 **Goals:**
+
+📖 Concepts to Review:
 
 
 **Resources:**
@@ -19,8 +28,10 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 
 ---
 
-### 📦 PA2: Round-Robin Scheduler
+### 📦 PA2: 
 **Goals:**
+
+📖 Concepts to Review:
 
 
 **Resources:**
@@ -33,8 +44,10 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 
 ---
 
-### 📦 PA3: Synchronization & Shared Resources
+### 📦 PA3: 
 **Goals:**
+
+📖 Concepts to Review:
 
 
 **Resources:**
@@ -46,8 +59,11 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 
 ---
 
-### 📦 PA4: Memory Management Simulation
+### 📦 PA4: 
 **Goals:**
+
+📖 Concepts to Review:
+
 
 **Resources:**
 -  [Virtual Memory Explained](https://www.youtube.com/your-video-link)
@@ -85,6 +101,12 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 - **Use the VSCode debugger** (see [Debugging Tips](#)) — it will save hours.
 - Ask questions *after* you’ve tested basic functionality and reviewed the videos.
 
+#### ✅ Before Asking for Help:
+- [ ] My code compiles without errors.
+- [ ] I’ve read the PA spec at least twice.
+- [ ] I’ve watched the linked concept video(s).
+- [ ] I ran my code with sample input and printed intermediate values.
+- [ ] I looked at the FAQ/debug tips.
 ---
 
 Need help setting up your environment or using the Java debugger? Check the [Debugging Section](#) before attending office hours.
