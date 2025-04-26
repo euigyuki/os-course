@@ -6,7 +6,7 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 
 ## 🧑‍💻 Programming Assignments
 
-### 📦 PA1: Thread Creation and Context Switching
+### PA1: Thread Creation and Context Switching
 **Goals:**
 - Implement basic thread management using Java's `Thread` class
 - Understand thread lifecycle and context switching
