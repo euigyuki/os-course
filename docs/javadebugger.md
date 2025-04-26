@@ -26,20 +26,20 @@ for (int i = 0; i < 5; i++) {
 Press F5 or go to Run > Start Debugging.
 If prompted, click “Java” as the debugger.
 VSCode will automatically detect the main class and compile your code.
-🧭 4. Use the Debugger Panel
+## 🧭 4. Use the Debugger Panel
 
 <!-- Once debugging starts, use:
 
 ▶️ Continue — resume running until the next breakpoint
 ⏭ Step Over — go to the next line (skip function internals)
-⏬ Step Into — step inside a function call
+ Step Into — step inside a function call
 ⏹ Stop — end the session
 Also check:
 
 Variables: watch local/global variables
 Call Stack: trace how the program reached this point
 Watch Expressions: add any variable or expression manually -->
-🔍 5. Debugging Tips
+## 🔍 5. Debugging Tips
 
 🧪 Add Logs While Debugging
 Use System.out.println() to quickly trace values and logic flow.
@@ -51,13 +51,11 @@ If your project involves multithreading:
 Add breakpoints inside run() methods
 Watch shared variables like buffers or flags
 Use breakpoints to pause competing threads
-💡 Pro Tip: Watch Expressions
+## 💡 Pro Tip: Watch Expressions
 
 Use the Watch panel to track variables, like:
 
-readyQueue.size()
-currentProcess.getPriority()
-🧠 Final Thought
+## 🧠 Final Thought
 
 “Don’t just stare at your code — step through it.”
 Using the debugger saves time and teaches you how the Java Virtual Machine really runs your code.
