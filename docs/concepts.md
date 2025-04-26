@@ -1,4 +1,4 @@
-# Operating Systems Concepts 
+# OS Concepts 
 
 ---
 

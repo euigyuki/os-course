@@ -1,4 +1,4 @@
-# How to Study for Operating Systems
+# How to Study for OS
 
 Operating Systems is a challenging but rewarding course. It combines deep conceptual understanding with tricky programming assignments. This guide will help you study more effectively, debug more confidently, and prepare well for exams.
 
@@ -17,11 +17,11 @@ Operating Systems is a challenging but rewarding course. It combines deep concep
 
 ## 🧠 Concept Mastery Tips
 
-- **Draw diagrams** of process state transitions, memory layouts, etc.
+<!-- - **Draw diagrams** of process state transitions, memory layouts, etc.
 - **Explain concepts aloud** like you're teaching a classmate.
-- Recreate **Gantt charts**, **resource allocation graphs**, or **page tables** by hand.
-- Use **flashcards or a concept map** to track interrelated topics (e.g., synchronization and deadlocks).
-- Pause videos or lectures to ask: *“Can I predict what comes next?”*
+<!-- - Recreate **Gantt charts**, **resource allocation graphs**, or **page tables** by hand. -->
+<!-- - Use **flashcards or a concept map** to track interrelated topics (e.g., synchronization and deadlocks).
+- Pause videos or lectures to ask: *“Can I predict what comes next?”* --> -->
 
 ---
 
@@ -55,4 +55,3 @@ Operating Systems is a challenging but rewarding course. It combines deep concep
 - Ask questions in office hours *after* trying the checklist in the PA help section.
 - Form or join a **study group** — talking through problems helps retention.
 - Watch the suggested videos again slowly and pause to reflect.
-- Review your past
