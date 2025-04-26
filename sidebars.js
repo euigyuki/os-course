@@ -4,26 +4,26 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'intro', // corresponds to intro.md
+      id: 'Intro', // corresponds to intro.md
     },
     {
       type: 'category',
       label: 'Course Material',
       items: [
-        'concepts',
+        'Concepts',
         'AssignmentHelp',
         'Resources',
         'OfficeHours',
-        'faq',  
-        'howtostudy',
+        'Faq',  
+        'HowToStudy',
       ],
     },
     {
       type: 'category',
       label: 'Tools & Philosophy',
       items: [
-        'javadebugger',
-        'coding-philosophy',
+        'JavaDebugger',
+        'Coding-Philosophy',
       ],
     },
     {
