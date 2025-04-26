@@ -47,7 +47,7 @@ export default function Home() {
           <div className="col col--6">
             <h2>💻 Assignment Help</h2>
             <p>Get help with PAs and problem sets, plus common bug patterns and tips for better code.</p>
-            <Link className="button button--outline button--sm" to="/docs/AssignmentHelp">
+            <Link className="button button--outline button--sm" to="/docs/assignmenthelp">
               View Assignment Help
             </Link>
           </div>
@@ -65,7 +65,7 @@ export default function Home() {
           <div className="col col--6">
             <h2>📎 Resources</h2>
             <p>Find links to the textbook.</p>
-            <Link className="button button--outline button--sm" to="/docs/Resources">
+            <Link className="button button--outline button--sm" to="/docs/resources">
               View Resources
             </Link>
           </div>

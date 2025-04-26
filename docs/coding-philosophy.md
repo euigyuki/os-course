@@ -6,17 +6,9 @@ Writing clean, bug-resistant code saves you—and your TAs—hours of debugging.
 
 ## 1. **Keep Functions Small and Purposeful**
 
-<!-- ✅ One function = one job  
+✅ One function = one job  
 ❌ Avoid long functions that do too many things
 
-```java
-// Good
-void loadProcess() {
-  allocateMemory();
-  setPCBFields();
-  enqueueToScheduler();
-}
-``` -->
 
 ## 2. Separate Logic Layers
 
@@ -37,10 +29,7 @@ public static final int PAGE_SIZE = 4096; // ✅ readable and reusable -->
 
 Don’t narrate every line — comment to explain why, not what.
 
-// Wait until the buffer has space before producing
-while (buffer.isFull()) {
-  wait();
-}
+
 ## 6. Embrace Object-Oriented Design
 
 Use classes and objects to model real-world OS concepts:
