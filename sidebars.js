@@ -15,6 +15,7 @@ const sidebars = {
         'Resources',
         'OfficeHours',
         'faq',  
+        'howtostudy',
       ],
     },
     {
