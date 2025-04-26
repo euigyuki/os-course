@@ -98,7 +98,7 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 
 - **Start early** — OS assignments often require debugging time.
 - **Test incrementally** — don’t write the whole thing before running your code.
-- **Use the VSCode debugger** (see [Debugging Tips](#)) — it will save hours.
+- **Use the VSCode debugger** (see Debugging Tips) — it will save hours.
 - Ask questions *after* you’ve tested basic functionality and reviewed the videos.
 
 #### ✅ Before Asking for Help:
@@ -109,4 +109,4 @@ Welcome! This section provides tips, setup guidance, and common pitfalls for pro
 - [ ] I looked at the FAQ/debug tips.
 ---
 
-Need help setting up your environment or using the Java debugger? Check the [Debugging Section](#) before attending office hours.
+Need help setting up your environment or using the Java debugger? Check the Debugging Section before attending office hours.
