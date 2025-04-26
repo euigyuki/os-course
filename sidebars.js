@@ -4,18 +4,18 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'Intro', // corresponds to intro.md
+      id: 'intro', // corresponds to intro.md
     },
     {
       type: 'category',
       label: 'Course Material',
       items: [
-        'Concepts',
-        'AssignmentHelp',
-        'Resources',
-        'OfficeHours',
-        'Faq',  
-        'HowToStudy',
+        'concepts',
+        'assignmenthelp',
+        'resources',
+        'officeHours',
+        'faq',  
+        'howtostudy',
       ],
     },
     {
@@ -23,14 +23,14 @@ const sidebars = {
       label: 'Tools & Philosophy',
       items: [
         'JavaDebugger',
-        'Coding-Philosophy',
+        'coding-philosophy',
       ],
     },
     {
       type: 'category',
       label: 'Jokes',
       items: [
-        'Jokes',
+        'jokes',
        
       ],
     },
