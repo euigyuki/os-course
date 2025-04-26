@@ -16,7 +16,7 @@ function HomepageHeader() {
           Concepts, assignments, and debugging help for CS students.
         </p>
         <p className="hero__subtitle">
-          email egk265@brandeis.edu for funny jokes
+          email egk265@brandeis.edu for funny jokes/ or any edit requests!
         </p>
         <img
           src={useBaseUrl('/img/dino.png')}
