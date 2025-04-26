@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Frequently Asked Questions | Operating Systems</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://euigyuki.github.io/os-course/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://euigyuki.github.io/os-course/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://euigyuki.github.io/os-course/docs/faq"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Frequently Asked Questions | Operating Systems"><meta data-rh="true" name="description" content="Before attending office hours, please check here — your question might already be answered!"><meta data-rh="true" property="og:description" content="Before attending office hours, please check here — your question might already be answered!"><link data-rh="true" rel="icon" href="/os-course/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://euigyuki.github.io/os-course/docs/faq"><link data-rh="true" rel="alternate" href="https://euigyuki.github.io/os-course/docs/faq" hreflang="en"><link data-rh="true" rel="alternate" href="https://euigyuki.github.io/os-course/docs/faq" hreflang="x-default"><link rel="stylesheet" href="/os-course/assets/css/styles.9dd36ec3.css">
-<script src="/os-course/assets/js/runtime~main.7e7265b0.js" defer="defer"></script>
+<script src="/os-course/assets/js/runtime~main.e3ebbb91.js" defer="defer"></script>
 <script src="/os-course/assets/js/main.6fcdab4a.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -13,28 +13,8 @@
 <p>Before attending office hours, please check here — your question might already be answered!</p>
 </blockquote>
 <hr>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>💥 Why does <code>fork()</code> return twice?</summary><div><div class="collapsibleContent_i85q"><p>It returns once in the parent process (with the child&#x27;s PID) and once in the child process (with 0). This is how the OS helps distinguish between the two processes after a fork.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🐛 How do I debug a segmentation fault?</summary><div><div class="collapsibleContent_i85q"><p>Use a debugger like <code>gdb</code> or the VSCode debugger. Check for null pointers, out-of-bound array accesses, and incorrect memory access.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🎲 Why does my thread program behave unpredictably?</summary><div><div class="collapsibleContent_i85q"><p>You&#x27;re likely encountering a race condition. Use synchronization tools like <code>mutex</code>, <code>semaphore</code>, or <code>lock</code> to protect shared data.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>😐 Why is my process stuck and not progressing?</summary><div><div class="collapsibleContent_i85q"><p>It may be waiting forever due to a full buffer, deadlock, or missed signal. Check your synchronization logic carefully.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🧵 What&#x27;s the difference between a process and a thread?</summary><div><div class="collapsibleContent_i85q"><p>Processes have separate memory spaces; threads share memory within the same process. Threads are lighter and better for parallelism.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🕰️ What’s the difference between <code>wait()</code> and <code>sleep()</code>?</summary><div><div class="collapsibleContent_i85q"><ul>
-<li><code>sleep()</code>: Pauses a process for a specified amount of time.</li>
-<li><code>wait()</code>: Makes a parent process wait until one of its child processes finishes.</li>
-</ul></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚖️ Why is my Round Robin scheduler unfair?</summary><div><div class="collapsibleContent_i85q"><p>Make sure you&#x27;re rotating the queue correctly and accounting for context switch overhead. Double-check your time slice handling.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔒 How do I avoid deadlocks in my code?</summary><div><div class="collapsibleContent_i85q"><p>Use:</p><ul>
-<li>A consistent resource acquisition order</li>
-<li>Avoid holding multiple locks</li>
-<li>Use timeouts or lock ordering strategies</li>
-</ul></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔥 What causes thrashing in virtual memory?</summary><div><div class="collapsibleContent_i85q"><p>Thrashing happens when too many page faults occur. It means the system spends more time swapping than running — typically due to a large working set.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📊 Do I need to know Gantt charts?</summary><div><div class="collapsibleContent_i85q"><p>Yes! They’re essential for understanding scheduling algorithms and computing wait/turnaround time.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📦 What&#x27;s the difference between internal and external fragmentation?</summary><div><div class="collapsibleContent_i85q"><ul>
-<li><strong>Internal</strong>: Unused space <em>inside</em> an allocated region</li>
-<li><strong>External</strong>: Free memory <em>between</em> allocations, too small to use</li>
-</ul></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📞 What are system calls?</summary><div><div class="collapsibleContent_i85q"><p>System calls allow user programs to interact with the OS — like creating processes, reading files, or allocating memory.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary> Why does <code>fork()</code> return twice?</summary><div><div class="collapsibleContent_i85q"><p>It returns once in the parent process (with the child&#x27;s PID) and once in the child process (with 0). This is how the OS helps distinguish between the two processes after a fork.</p></div></div></details>
+<hr>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🃏 How do I submit my joke?</summary><div><div class="collapsibleContent_i85q"><p>Email your joke to <code>egk265@brandeis.edu</code> with the subject line “OS Joke Submission”.<br>
 <!-- -->If it makes the TA team laugh (or groan), you might be featured in recitation!</p><blockquote>
 <p>⚠️ Please: No inappropriate content — racist, sexist, or offensive jokes will be disqualified.</p>
