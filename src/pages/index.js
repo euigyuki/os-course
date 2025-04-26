@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
 
@@ -18,7 +19,7 @@ function HomepageHeader() {
           email egk265@brandeis.edu for funny jokes
         </p>
         <img
-          src="/img/dino.png"
+          src={useBaseUrl('/img/dino.png')}
           alt="Friendly dinosaur mascot"
           style={{ maxWidth: '250px', marginTop: '1rem', borderRadius: '10px' }}
         />
