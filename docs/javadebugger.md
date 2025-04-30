@@ -51,6 +51,13 @@ If your project involves multithreading:
 Add breakpoints inside run() methods
 Watch shared variables like buffers or flags
 Use breakpoints to pause competing threads
+
+## 6. Optional: Use Logs Instead of Breakpoints
+Not every bug needs a breakpoint. Sometimes, it’s easier to log what your program is doing.
+Use Java's Logger:
+
+If you want more control, use java.util.logging.Logger for real log levels
+
 ## 💡 Pro Tip: Watch Expressions
 
 Use the Watch panel to track variables, like:
